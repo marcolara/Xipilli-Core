@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.xipilli</groupId>
-		<artifactId>xipilli</artifactId>
+		<artifactId>xipilli-reactor</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>xipilli.common</artifactId>
