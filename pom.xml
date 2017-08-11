@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.xipilli</groupId>
   <artifactId>xipilli-reactor</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>xipilli-reactor</name>
   <build>
@@ -76,7 +76,7 @@
     <com.sun.xml.ws.version>2.2.10</com.sun.xml.ws.version>
     <org.glassfish.metro.version>2.3.1</org.glassfish.metro.version>
     <org.jvnet.jax-ws-commons.spring.version>1.9</org.jvnet.jax-ws-commons.spring.version>
-    <xipilli.version>0.0.1-SNAPSHOT</xipilli.version>
+    <xipilli.version>1.0.0-SNAPSHOT</xipilli.version>
   </properties>
   <repositories>
     <!-- Maven repositories for downloading various artifacts -->
@@ -140,12 +140,6 @@
         <groupId>com.xipilli</groupId>
         <artifactId>xipilli.persistence</artifactId>
         <version>${xipilli.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.11</version>
-        <scope>test</scope>
       </dependency>
       <!-- Spring framework dependencies -->
       <dependency>
