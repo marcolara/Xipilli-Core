@@ -47,7 +47,7 @@ public abstract class AbstractPersistentEntity implements PersistentEntity {
         return this.createTimestamp;
     }
 
-    public void setCreateTimestamp(Timestamp createTimestamp) {
+    public void setCreateTimestamp(Date createTimestamp) {
         this.createTimestamp = createTimestamp;
     }
 
@@ -56,7 +56,7 @@ public abstract class AbstractPersistentEntity implements PersistentEntity {
         return this.updateTimestamp;
     }
 
-    public void setUpdateTimestamp(Timestamp updateTimestamp) {
+    public void setUpdateTimestamp(Date updateTimestamp) {
         this.updateTimestamp = updateTimestamp;
     }
 }
